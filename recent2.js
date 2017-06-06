@@ -4,7 +4,7 @@ FeaturedPostSide({
   blogURL: "http://ips2gram.id",
   MaxPost: 8,
   idcontaint: "#featuredpostside",
-  ImageSize: 300,
+  ImageSize: 200,
   interval: 5000,
   autoplay: true,
   tagName: false
