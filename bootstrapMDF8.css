@@ -1086,7 +1086,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -1095,19 +1094,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #23527c;
-  text-decoration: underline;
-}
-a:focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
 }
 figure {
   margin: 0;
@@ -1222,8 +1208,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: auto;
+  margin-bottom: 1px;
 }
 h1 small,
 .h1 small,
@@ -4592,7 +4578,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.9  );
   border-color: rgba(0,0,0,0.8);
   transition: all .4s ease-in-out;
   height: 10px
@@ -4616,15 +4602,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
-  background: #222
 }
 .navbar-inverse.muncul .navbar-nav > li > a {
   color: #9d9d9d;
-  background: #eee
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #9d9d9d;;
+  color: #9d9d9d;
+  background: transparent;
 }
 .navbar-inverse.muncul .navbar-toggle:hover,
 .navbar-inverse.muncul .navbar-toggle:focus {
@@ -4634,7 +4619,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #9d9d9d;
-  background-color: #080808;
+  background-color: #eee
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
