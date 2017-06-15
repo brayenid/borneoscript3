@@ -18,7 +18,7 @@
 		$('.sosmed').addClass('muncul');
 	}
 	if (jarak < $('.menu1').offset().top -1) {
-		$('.sosmed').addClass('muncul');
+		$('.sosmed').removeClass('muncul');
 	}
 });
 $(document).ready(function(){ 
